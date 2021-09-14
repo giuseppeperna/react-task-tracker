@@ -6,16 +6,19 @@ function App() {
     const [tasks, setTasks] = useState([
             {
                 id: 1,
-                text: 'Ciao',
-                day: '23 Maggio'
+                text: 'Doctors Appointment',
+                day: 'May 5th',
+                reminder: true,
             },
             {
                 id: 2,
-                text: 'Come stai?',
-                day: '24 Giugno'
+                text: 'Food Shopping',
+                day: 'May 6th',
+                reminder: false,
             }
         ]
     )
+
 
   return (
     <div className="container">
